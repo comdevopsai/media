@@ -1,17 +1,29 @@
 # media
 
-Media assets — rendered videos, audio, images, transcripts, text sources, and presentations.
+Media assets — the full production pipeline: text → images/transcripts → audio → video, plus presentations.
+
+## Production pipeline
+
+```
+text/  ──►  images/ + transcripts/  ──►  audio/  ──►  video/   (presentations/ = bundled decks)
+```
+
+1. **text/** — write the research brief + narration script.
+2. **images/ + transcripts/** — generate charts/posters from the text, and extract the spoken transcript.
+3. **audio/** — synthesize TTS narration (`.mp3`) from the transcript/script.
+4. **video/** — render the talking-head video driven by the audio + images.
+5. **presentations/** — optional deck bundling (narration + chart spec + slides).
 
 ## Repository structure
 
-| Folder | Contents | Index |
-|---|---|---|
-| [`text/`](text/) | Research briefs + narration scripts | [text/README.md](text/README.md) |
-| [`transcripts/`](transcripts/) | Verbatim spoken transcripts of videos | [transcripts/README.md](transcripts/README.md) |
-| [`audio/`](audio/) | Standalone TTS narration (`.mp3`) | [audio/README.md](audio/README.md) |
-| [`videos/`](videos/) | Rendered video files (`.mp4`) | [videos/README.md](videos/README.md) |
-| [`images/`](images/) | Images, poster frames, thumbnails, charts | [images/README.md](images/README.md) |
-| [`presentations/`](presentations/) | Slide decks & presentation sources | [presentations/README.md](presentations/README.md) |
+| Stage | Folder | Contents | Index |
+|---|---|---|---|
+| 1 | [`text/`](text/) | Research briefs + narration scripts | [text/README.md](text/README.md) |
+| 2 | [`images/`](images/) | Images, poster frames, thumbnails, charts | [images/README.md](images/README.md) |
+| 2 | [`transcripts/`](transcripts/) | Verbatim spoken transcripts of videos | [transcripts/README.md](transcripts/README.md) |
+| 3 | [`audio/`](audio/) | Standalone TTS narration (`.mp3`) | [audio/README.md](audio/README.md) |
+| 4 | [`videos/`](videos/) | Rendered video files (`.mp4`) | [videos/README.md](videos/README.md) |
+| 5 | [`presentations/`](presentations/) | Slide decks & presentation sources | [presentations/README.md](presentations/README.md) |
 
 ## Naming convention
 
@@ -38,10 +50,11 @@ A professor-narrated video on the NIH *All of Us Research Program* (purpose & 20
 
 [![Watch the video](images/2026-07-19_all-of-us-professor-briefing_thumb.png)](https://github.com/comdevopsai/media/releases/download/v1.0/all_of_us_professor.mp4)
 
-### Asset set (same `2026-07-19_all-of-us-professor-briefing` slug)
-- **Video:** [`videos/2026-07-19_all-of-us-professor-briefing.mp4`](videos/2026-07-19_all-of-us-professor-briefing.mp4) — also on [release v1.0](https://github.com/comdevopsai/media/releases/tag/v1.0) (direct `video/mp4` play link).
-- **Audio:** [`audio/2026-07-19_all-of-us-professor-briefing.mp3`](audio/2026-07-19_all-of-us-professor-briefing.mp3) — standalone TTS narration.
-- **Transcript:** [`transcripts/2026-07-19_all-of-us-professor-briefing_transcript.txt`](transcripts/2026-07-19_all-of-us-professor-briefing_transcript.txt)
-- **Narration script:** [`text/2026-07-19_all-of-us-professor-briefing_narration.md`](text/2026-07-19_all-of-us-professor-briefing_narration.md)
-- **Source brief:** [`text/2026-07-19_all-of-us-research-program.md`](text/2026-07-19_all-of-us-research-program.md)
-- **Thumbnail:** [`images/2026-07-19_all-of-us-professor-briefing_thumb.png`](images/2026-07-19_all-of-us-professor-briefing_thumb.png)
+### Asset set — pipeline order (same `2026-07-19_all-of-us-professor-briefing` slug)
+1. **Source brief:** [`text/2026-07-19_all-of-us-research-program.md`](text/2026-07-19_all-of-us-research-program.md)
+2. **Narration script:** [`text/2026-07-19_all-of-us-professor-briefing_narration.md`](text/2026-07-19_all-of-us-professor-briefing_narration.md)
+3. **Thumbnail:** [`images/2026-07-19_all-of-us-professor-briefing_thumb.png`](images/2026-07-19_all-of-us-professor-briefing_thumb.png)
+4. **Transcript:** [`transcripts/2026-07-19_all-of-us-professor-briefing_transcript.txt`](transcripts/2026-07-19_all-of-us-professor-briefing_transcript.txt)
+5. **Audio:** [`audio/2026-07-19_all-of-us-professor-briefing.mp3`](audio/2026-07-19_all-of-us-professor-briefing.mp3) — standalone TTS narration.
+6. **Video:** [`videos/2026-07-19_all-of-us-professor-briefing.mp4`](videos/2026-07-19_all-of-us-professor-briefing.mp4) — also on [release v1.0](https://github.com/comdevopsai/media/releases/tag/v1.0) (direct `video/mp4` play link).
+
