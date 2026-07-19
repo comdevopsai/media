@@ -1,0 +1,27 @@
+---
+character: professor
+scene: studio
+bg: studio
+date:
+---
+
+!SLIDE: /tmp/aou_charts/title.png
+Good morning. Today I'll walk you through the National Institutes of Health's All of Us Research Program — its purpose, and where it stands as of mid 2026.
+
+!SLIDE: /tmp/aou_charts/chart_01_stat.png
+Here is the headline number. As of June 2026, more than seven hundred forty-seven thousand participants have data available to researchers. That makes All of Us the largest integrated genomics and health database in the world.
+
+!SLIDE: /tmp/aou_charts/chart_02_bar.png
+The program's goal is one million or more U-S participants, with a deliberate focus on diversity. Enrollment has climbed steadily — from the 2018 national launch toward eight hundred seventy thousand consented by 2026, with over five hundred sixty thousand completing full baseline data collection.
+
+!SLIDE: /tmp/aou_charts/chart_03_line.png
+The genomic engine is what sets it apart. Whole-genome sequences grew from a pilot in 2021 to over five hundred thirty-five thousand released by 2026 — more than double the prior year, and now linked to roughly four hundred eighty-two thousand electronic health records.
+
+!SLIDE: /tmp/aou_charts/chart_04_timeline.png
+The timeline: announced in the 2015 State of the Union, national enrollment opened in 2018, the first large clinical-grade genome release came in 2024, and June 2026 marked the milestone where the program became the world's largest integrated genomics and health database.
+
+!SLIDE: /tmp/aou_charts/chart_05_donut.png
+What data does each participant contribute? Six streams: electronic health records, genomic sequencing, surveys, physical measurements, wearable-device data, and biospecimens in a biobank. That multi-modal richness is what makes the resource so useful for research.
+
+!SLIDE: /tmp/aou_charts/title.png
+In short — All of Us is a federally funded, diversity-first precision-medicine platform. It is now the largest of its kind globally, and it complements randomized trials by providing enormous observational data for pain, rehabilitation, and population health research. Thank you.
