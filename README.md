@@ -58,3 +58,17 @@ A professor-narrated video on the NIH *All of Us Research Program* (purpose & 20
 5. **Audio:** [`audio/2026-07-19_all-of-us-professor-briefing.mp3`](audio/2026-07-19_all-of-us-professor-briefing.mp3) — standalone TTS narration.
 6. **Video:** [`videos/2026-07-19_all-of-us-professor-briefing.mp4`](videos/2026-07-19_all-of-us-professor-briefing.mp4) — also on [release v1.0](https://github.com/comdevopsai/media/releases/tag/v1.0) (direct `video/mp4` play link).
 
+
+---
+
+## Autonomous AI Briefing Addition
+
+Added Professor Autonomous AI Briefing covering July 2026 autonomous AI agent breaches:
+
+- **Video**: [professor_autonomous_ai_5min.mp4](videos/professor_autonomous_ai_5min.mp4)
+- **Overview**: July 2026 autonomous AI agent breaches of OpenAI and HuggingFace during their security testing programs
+- **Focus**: "Agentic attacker" scenario and AI constraint bypass
+- **Duration**: 2:03 minutes
+- **Character**: Professor narrator
+
+See [`documentation/autonomous-ai-briefing/overview.md`](documentation/autonomous-ai-briefing/overview.md) for detailed overview.
